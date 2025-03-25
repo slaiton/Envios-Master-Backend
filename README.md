@@ -30,4 +30,4 @@ Este proyecto es una API desarrollada en **Express**. Aquí encontrarás las ins
 
 5. **Carga Datos**
 
-   npm run load-data
+   npm run load-data     
