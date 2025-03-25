@@ -27,3 +27,7 @@ Este proyecto es una API desarrollada en **Express**. Aquí encontrarás las ins
 4. **Ejecutar migraciones:**
 
    npm run migrate:sql
+
+5. **Carga Datos**
+
+   npm run load-data
