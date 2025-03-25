@@ -1,0 +1,2002 @@
+[
+  {
+    "plate": "SPO458",
+    "model": 2007,
+    "capacity": 4500,
+    "marca": "HINO",
+    "clase": "DUTRO",
+    "tecno": "2024-11-07",
+    "soat": "2024-10-11",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "SWO398",
+    "model": 1999,
+    "capacity": 3400,
+    "marca": "VOLKSWAGEN",
+    "clase": 8.12,
+    "tecno": "2025-09-28",
+    "soat": "2025-07-24",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "GTZ104",
+    "model": 2021,
+    "capacity": 8000,
+    "marca": "HINO",
+    "clase": "SIN LINEA",
+    "tecno": "2025-01-16",
+    "soat": "2025-01-16",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "LCN687",
+    "model": 2022,
+    "capacity": 5500,
+    "marca": "FOTON",
+    "clase": "SIN LINEA",
+    "tecno": "2025-03-22",
+    "soat": "2025-03-31",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "SOZ804",
+    "model": 2012,
+    "capacity": 2000,
+    "marca": "CHEVROLET",
+    "clase": "SIN LINEA",
+    "tecno": "2025-08-31",
+    "soat": "2025-12-27",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "WLK934",
+    "model": 2015,
+    "capacity": 2520,
+    "marca": "CHEVROLET",
+    "clase": "NHR",
+    "tecno": "2025-12-11",
+    "soat": "2026-01-14",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "SOO767",
+    "model": 2008,
+    "capacity": 4500,
+    "marca": "JAC",
+    "clase": "SIN LINEA",
+    "tecno": "2024-11-12",
+    "soat": "2024-11-16",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "TSV332",
+    "model": 2014,
+    "capacity": 4500,
+    "marca": "MITSUBISHI FUSO",
+    "clase": "CANTER",
+    "tecno": "2023-11-11",
+    "soat": "2023-11-10",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "LWL735",
+    "model": 2023,
+    "capacity": 8000,
+    "marca": "CHEVROLET",
+    "clase": "FVR",
+    "tecno": "2026-02-18",
+    "soat": "2026-02-19",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "TEMPO",
+    "model": 2000,
+    "capacity": 18000,
+    "marca": "SUMITOMO",
+    "clase": "SIN LINEA",
+    "tecno": "2020-03-12",
+    "soat": "2027-08-15",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "JOV908",
+    "model": 2021,
+    "capacity": 4500,
+    "marca": "FOTON",
+    "clase": "SIN LINEA",
+    "tecno": "2025-08-28",
+    "soat": "2025-09-02",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "SKZ040",
+    "model": 2012,
+    "capacity": 4800,
+    "marca": "JAC",
+    "clase": "HFC1035KRD",
+    "tecno": "2025-06-12",
+    "soat": "2025-05-19",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "WFV166",
+    "model": 2015,
+    "capacity": 5700,
+    "marca": "FOTON",
+    "clase": "BJ1043V8JE6-D",
+    "tecno": "2024-08-10",
+    "soat": "2024-08-08",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "ZNM328",
+    "model": 2016,
+    "capacity": 4500,
+    "marca": "FOTON",
+    "clase": "BJ1129VHPEG-F1",
+    "tecno": "2026-02-04",
+    "soat": "2026-02-03",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "UFX822",
+    "model": 2011,
+    "capacity": 4500,
+    "marca": "CHEVROLET",
+    "clase": "NHR",
+    "tecno": "2024-12-23",
+    "soat": "2025-03-19",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "WEF224",
+    "model": 1995,
+    "capacity": 5000,
+    "marca": "MAZDA",
+    "clase": "SIN LINEA",
+    "tecno": "2025-06-29",
+    "soat": "2025-06-05",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "XHJ270",
+    "model": 1969,
+    "capacity": 7000,
+    "marca": "FORD",
+    "clase": "SIN LINEA",
+    "tecno": "2025-01-20",
+    "soat": "2024-07-04",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "WZH573",
+    "model": 2009,
+    "capacity": 8000,
+    "marca": "FREIGHTLINER",
+    "clase": "SIN LINEA",
+    "tecno": "2025-07-12",
+    "soat": "2026-01-23",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "LUL062",
+    "model": 2023,
+    "capacity": 4500,
+    "marca": "CHEVROLET",
+    "clase": "SIN LINEA",
+    "tecno": "2026-01-17",
+    "soat": "2025-12-27",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "TTR563",
+    "model": 2014,
+    "capacity": 5000,
+    "marca": "CHEVROLET",
+    "clase": "SIN LINEA",
+    "tecno": "2024-12-14",
+    "soat": "2024-07-12",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "GEU695",
+    "model": 2020,
+    "capacity": 4500,
+    "marca": "FOTON",
+    "clase": "BJ1039V3JD3-1",
+    "tecno": "2025-09-05",
+    "soat": "2025-08-30",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "WNL781",
+    "model": 2016,
+    "capacity": 2500,
+    "marca": "CHEVROLET",
+    "clase": "NNR",
+    "tecno": "2025-10-28",
+    "soat": "2025-10-23",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "TDL753",
+    "model": 2012,
+    "capacity": 4245,
+    "marca": "CHEVROLET",
+    "clase": "SIN LINEA",
+    "tecno": "2024-11-23",
+    "soat": "2024-09-07",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "SPV115",
+    "model": 2011,
+    "capacity": 8000,
+    "marca": "CHEVROLET",
+    "clase": "SIN LINEA",
+    "tecno": "2023-10-31",
+    "soat": "2023-09-24",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "SYR625",
+    "model": 1999,
+    "capacity": 4500,
+    "marca": "MITSUBISHI",
+    "clase": "SIN LINEA",
+    "tecno": "2025-06-28",
+    "soat": "2025-05-08",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "SYM634",
+    "model": 2000,
+    "capacity": 4500,
+    "marca": "MAZDA",
+    "clase": "T 45",
+    "tecno": "2024-12-16",
+    "soat": "2024-11-01",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "TTU404",
+    "model": 2016,
+    "capacity": 2300,
+    "marca": "CHEVROLET",
+    "clase": "NHR",
+    "tecno": "2024-10-28",
+    "soat": "2025-07-23",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "WOT301",
+    "model": 2017,
+    "capacity": 4050,
+    "marca": "MITSUBISHI FUSO",
+    "clase": "FE85DG6SLGP",
+    "tecno": "2024-09-06",
+    "soat": "2024-10-12",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "LQK315",
+    "model": 2023,
+    "capacity": 5650,
+    "marca": "JMC",
+    "clase": "SIN LINEA",
+    "tecno": "2024-10-21",
+    "soat": "2024-10-21",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "WGY706",
+    "model": 2015,
+    "capacity": 4500,
+    "marca": "HINO",
+    "clase": "SIN LINEA",
+    "tecno": "2025-06-29",
+    "soat": "2025-08-02",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "TMP108",
+    "model": 2012,
+    "capacity": 4500,
+    "marca": "JAC",
+    "clase": "SIN LINEA",
+    "tecno": "2024-06-29",
+    "soat": "2024-05-26",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "WNL838",
+    "model": 2015,
+    "capacity": 8000,
+    "marca": "FOTON",
+    "clase": "BJ1133VJPGG-1",
+    "tecno": "2025-02-10",
+    "soat": "2025-02-16",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "WFW183",
+    "model": 2015,
+    "capacity": 6700,
+    "marca": "CHEVROLET",
+    "clase": "SIN LINEA",
+    "tecno": "2025-10-09",
+    "soat": "2025-10-21",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "WEQ763",
+    "model": 2015,
+    "capacity": 5000,
+    "marca": "CHEVROLET",
+    "clase": "SIN LINEA",
+    "tecno": "2023-06-13",
+    "soat": "2023-04-29",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "ZNM718",
+    "model": 2017,
+    "capacity": 5000,
+    "marca": "FOTON",
+    "clase": "SIN LINEA",
+    "tecno": "2025-01-18",
+    "soat": "2024-12-22",
+    "tipo": "TURBO EXTRADIMENSIONADA"
+  },
+  {
+    "plate": "SZV008",
+    "model": 2012,
+    "capacity": 3390,
+    "marca": "JAC",
+    "clase": "HFC1061K",
+    "tecno": "2025-07-03",
+    "soat": "2025-07-10",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "KOK879",
+    "model": 2022,
+    "capacity": 5000,
+    "marca": "JAC",
+    "clase": "SIN LINEA",
+    "tecno": "2023-08-16",
+    "soat": "2023-08-13",
+    "tipo": "TURBO EXTRADIMENSIONADA"
+  },
+  {
+    "plate": "VED314",
+    "model": 2007,
+    "capacity": 4500,
+    "marca": "HYUNDAI",
+    "clase": "HD 65",
+    "tecno": "2025-11-01",
+    "soat": "2025-11-02",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "THY767",
+    "model": 2012,
+    "capacity": 4990,
+    "marca": "DONG FENG",
+    "clase": "DUOLIKA DFA1063DJ10",
+    "tecno": "2025-09-01",
+    "soat": "2025-07-04",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "DYN628",
+    "model": 1996,
+    "capacity": 4500,
+    "marca": "CHEVROLET",
+    "clase": "SIN LINEA",
+    "tecno": "2025-02-28",
+    "soat": "2025-05-03",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "XEK226",
+    "model": 2008,
+    "capacity": 8000,
+    "marca": "VOLKSWAGEN",
+    "clase": "SIN LINEA",
+    "tecno": "2025-12-05",
+    "soat": "2025-10-25",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "TAL605",
+    "model": 2013,
+    "capacity": 4900,
+    "marca": "CHEVROLET",
+    "clase": "SIN LINEA",
+    "tecno": "2025-12-10",
+    "soat": "2025-08-28",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "TFU531",
+    "model": 2012,
+    "capacity": 7500,
+    "marca": "CHEVROLET",
+    "clase": "SIN LINEA",
+    "tecno": "2024-06-26",
+    "soat": "2024-02-14",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "TNF472",
+    "model": 2006,
+    "capacity": 4500,
+    "marca": "DAIHATSU",
+    "clase": "DELTA V128LD",
+    "tecno": "2024-11-30",
+    "soat": "2024-06-05",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "UFV133",
+    "model": 2006,
+    "capacity": 4500,
+    "marca": "FORD",
+    "clase": "SIN LINEA",
+    "tecno": "2024-12-20",
+    "soat": "2024-03-07",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "SZK552",
+    "model": 2012,
+    "capacity": 4500,
+    "marca": "JAC",
+    "clase": "HFC1061K",
+    "tecno": "2025-02-15",
+    "soat": "2025-02-05",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "SKY538",
+    "model": 2010,
+    "capacity": 4500,
+    "marca": "HINO",
+    "clase": "WU412L-HKMQB3",
+    "tecno": "2024-07-04",
+    "soat": "2024-09-01",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "UYU801",
+    "model": 2007,
+    "capacity": 9000,
+    "marca": "FREIGHTLINER",
+    "clase": "SIN LINEA",
+    "tecno": "2024-01-12",
+    "soat": "2023-10-01",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "TSY166",
+    "model": 2014,
+    "capacity": 4500,
+    "marca": "CHEVROLET",
+    "clase": "NQR",
+    "tecno": "2025-10-28",
+    "soat": "2025-07-27",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "JKV852",
+    "model": 2021,
+    "capacity": 5500,
+    "marca": "JAC",
+    "clase": "SIN LINEA",
+    "tecno": "2025-01-10",
+    "soat": "2025-01-08",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "LJQ893",
+    "model": 2023,
+    "capacity": 4500,
+    "marca": "JAC",
+    "clase": "SIN LINEA",
+    "tecno": "2025-11-30",
+    "soat": "2024-11-29",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "KUM876",
+    "model": 2008,
+    "capacity": 8000,
+    "marca": "CHEVROLET",
+    "clase": "FTR",
+    "tecno": "2025-11-07",
+    "soat": "2025-11-08",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "SWK946",
+    "model": 2007,
+    "capacity": 3000,
+    "marca": "NISSAN",
+    "clase": "T5U41",
+    "tecno": "2026-01-23",
+    "soat": "2026-01-08",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "TBZ190",
+    "model": 2012,
+    "capacity": 4900,
+    "marca": "CHEVROLET",
+    "clase": "NQR",
+    "tecno": "2025-05-10",
+    "soat": "2025-02-18",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "SBN866",
+    "model": 2016,
+    "capacity": 6600,
+    "marca": "HINO",
+    "clase": "SIN LINEA",
+    "tecno": "2025-09-12",
+    "soat": "2025-08-30",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "ZNM186",
+    "model": 2015,
+    "capacity": 4500,
+    "marca": "JAC",
+    "clase": "SIN LINEA",
+    "tecno": "2025-08-15",
+    "soat": "2025-08-30",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "WGY021",
+    "model": 1999,
+    "capacity": 8000,
+    "marca": "HINO",
+    "clase": "SIN LINEA",
+    "tecno": "2025-07-01",
+    "soat": "2025-07-04",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "KUL021",
+    "model": 2007,
+    "capacity": 4150,
+    "marca": "CHEVROLET",
+    "clase": "SIN LINEA",
+    "tecno": "2025-01-31",
+    "soat": "2025-08-27",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "XMB278",
+    "model": 2006,
+    "capacity": 4500,
+    "marca": "DAIHATSU",
+    "clase": "DELTA V126L",
+    "tecno": "2024-01-21",
+    "soat": "2024-01-16",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "KSQ127",
+    "model": 2022,
+    "capacity": 3900,
+    "marca": "CHEVROLET",
+    "clase": "SIN LINEA",
+    "tecno": "2023-12-02",
+    "soat": "2023-12-09",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "TJX260",
+    "model": 2014,
+    "capacity": 4000,
+    "marca": "JAC",
+    "clase": "SIN LINEA",
+    "tecno": "2023-08-12",
+    "soat": "2023-08-11",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "NNV159",
+    "model": 2024,
+    "capacity": 2500,
+    "marca": "JMC",
+    "clase": "SIN LINEA",
+    "tecno": "2026-02-23",
+    "soat": "2025-02-23",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "JRY816",
+    "model": 2021,
+    "capacity": 8000,
+    "marca": "MERCEDES BENZ",
+    "clase": "SIN LINEA",
+    "tecno": "2025-01-16",
+    "soat": "2025-12-01",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "WCT503",
+    "model": 2014,
+    "capacity": 4500,
+    "marca": "FOTON",
+    "clase": "SIN LINEA",
+    "tecno": "2025-12-11",
+    "soat": "2025-12-09",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "TPX938",
+    "model": 2007,
+    "capacity": 6000,
+    "marca": "CHEVROLET",
+    "clase": "FTR",
+    "tecno": "2025-01-10",
+    "soat": "2024-12-13",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "WFU408",
+    "model": 2015,
+    "capacity": 7090,
+    "marca": "CHEVROLET",
+    "clase": "NQR",
+    "tecno": "2023-07-07",
+    "soat": "2023-05-31",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "TLZ990",
+    "model": 2016,
+    "capacity": 5000,
+    "marca": "FOTON",
+    "clase": "BJ1129VHPEG-F1",
+    "tecno": "2024-09-23",
+    "soat": "2024-09-13",
+    "tipo": "TURBO EXTRADIMENSIONADA"
+  },
+  {
+    "plate": "TPT944",
+    "model": 2006,
+    "capacity": 3500,
+    "marca": "CHEVROLET",
+    "clase": "SIN LINEA",
+    "tecno": "2024-10-02",
+    "soat": "2024-07-27",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "KSP446",
+    "model": 2022,
+    "capacity": 8000,
+    "marca": "CHEVROLET",
+    "clase": "SIN LINEA",
+    "tecno": "2023-10-26",
+    "soat": "2022-12-07",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "KSP081",
+    "model": 2022,
+    "capacity": 5000,
+    "marca": "VOLKSWAGEN",
+    "clase": "SIN LINEA",
+    "tecno": "2024-10-21",
+    "soat": "2024-10-15",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "WNM161",
+    "model": 2016,
+    "capacity": 5950,
+    "marca": "CHEVROLET",
+    "clase": "FRR",
+    "tecno": "2025-09-06",
+    "soat": "2025-09-06",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "ESS442",
+    "model": 2019,
+    "capacity": 4500,
+    "marca": "CHEVROLET",
+    "clase": "NQR",
+    "tecno": "2025-02-10",
+    "soat": "2025-02-12",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "SYL334",
+    "model": 1997,
+    "capacity": 8000,
+    "marca": "CHEVROLET",
+    "clase": "KODIAK",
+    "tecno": "2023-06-02",
+    "soat": "2023-07-31",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "SBN662",
+    "model": 2012,
+    "capacity": 8000,
+    "marca": "VOLKSWAGEN",
+    "clase": "VW 17.210",
+    "tecno": "2024-11-15",
+    "soat": "2024-11-10",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "SON016",
+    "model": 2005,
+    "capacity": 7500,
+    "marca": "CHEVROLET",
+    "clase": "SIN LINEA",
+    "tecno": "2025-10-30",
+    "soat": "2025-06-08",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "SZX691",
+    "model": 2012,
+    "capacity": 6900,
+    "marca": "CHEVROLET",
+    "clase": "SIN LINEA",
+    "tecno": "2024-11-11",
+    "soat": "2024-12-17",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "SPQ485",
+    "model": 2007,
+    "capacity": 3500,
+    "marca": "FORD",
+    "clase": "SIN LINEA",
+    "tecno": "2024-07-25",
+    "soat": "2025-04-27",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "CRU517",
+    "model": 1996,
+    "capacity": 8000,
+    "marca": "CHEVROLET",
+    "clase": "KODIAK 157",
+    "tecno": "2026-01-03",
+    "soat": "2026-02-03",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "LZO480",
+    "model": 2023,
+    "capacity": 5000,
+    "marca": "JAC",
+    "clase": "SIN LINEA",
+    "tecno": "2025-09-06",
+    "soat": "2025-09-04",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "WPS922",
+    "model": 2017,
+    "capacity": 8000,
+    "marca": "HINO",
+    "clase": "FG8JCARGO",
+    "tecno": "2023-10-31",
+    "soat": "2023-10-26",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "SEY423",
+    "model": 2023,
+    "capacity": 9450,
+    "marca": "HINO",
+    "clase": "SIN LINEA",
+    "tecno": "2024-07-19",
+    "soat": "2024-07-15",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "SOR870",
+    "model": 2012,
+    "capacity": 4500,
+    "marca": "HYUNDAI",
+    "clase": "SIN LINEA",
+    "tecno": "2025-03-03",
+    "soat": "2025-04-08",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "KUL256",
+    "model": 2007,
+    "capacity": 9500,
+    "marca": "LIEBHERR2",
+    "clase": "SIN LINEA",
+    "tecno": "2023-01-27",
+    "soat": "2023-02-07",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "SWX044",
+    "model": 2012,
+    "capacity": 4400,
+    "marca": "FOTON",
+    "clase": "SIN LINEA",
+    "tecno": "2024-11-28",
+    "soat": "2025-08-26",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "WDK379",
+    "model": 2017,
+    "capacity": 8000,
+    "marca": "HINO",
+    "clase": "SIN LINEA",
+    "tecno": "2025-10-31",
+    "soat": "2025-10-28",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "XGD960",
+    "model": 2012,
+    "capacity": 7280,
+    "marca": "CHEVROLET",
+    "clase": "FRR",
+    "tecno": "2025-10-21",
+    "soat": "2025-11-30",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "TSV343",
+    "model": 2015,
+    "capacity": 4500,
+    "marca": "CHEVROLET",
+    "clase": "NPR",
+    "tecno": "2025-12-03",
+    "soat": "2025-05-16",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "TTY916",
+    "model": 2013,
+    "capacity": 4500,
+    "marca": "CHEVROLET",
+    "clase": "FRR",
+    "tecno": "2024-11-07",
+    "soat": "2024-11-01",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "FSW190",
+    "model": 2020,
+    "capacity": 5000,
+    "marca": "JAC",
+    "clase": "SIN LINEA",
+    "tecno": "2024-11-20",
+    "soat": "2024-11-20",
+    "tipo": "TURBO EXTRADIMENSIONADA"
+  },
+  {
+    "plate": "SUE081",
+    "model": 2007,
+    "capacity": 4100,
+    "marca": "CHEVROLET",
+    "clase": "SIN LINEA",
+    "tecno": "2024-09-09",
+    "soat": "2024-09-11",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "ZNM374",
+    "model": 2016,
+    "capacity": 4000,
+    "marca": "FOTON",
+    "clase": "BJ1051VCJEA-F1",
+    "tecno": "2025-04-24",
+    "soat": "2025-04-26",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "QGJ845",
+    "model": 1994,
+    "capacity": 8810,
+    "marca": "CHEVROLET",
+    "clase": "C 70",
+    "tecno": "2025-11-22",
+    "soat": "2025-11-25",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "TAW137",
+    "model": 2012,
+    "capacity": 4100,
+    "marca": "CHEVROLET",
+    "clase": "SIN LINEA",
+    "tecno": "2025-06-25",
+    "soat": "2025-03-08",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "EXX458",
+    "model": 2019,
+    "capacity": 2500,
+    "marca": "JMC",
+    "clase": "JX1044TC4",
+    "tecno": "2025-07-05",
+    "soat": "2025-07-05",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "KNZ591",
+    "model": 2022,
+    "capacity": 2250,
+    "marca": "JAC",
+    "clase": "SIN LINEA",
+    "tecno": "2024-06-28",
+    "soat": "2024-07-22",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "WLR639",
+    "model": 2015,
+    "capacity": 5000,
+    "marca": "MITSUBISHI FUSO",
+    "clase": "CANTER",
+    "tecno": "2025-06-15",
+    "soat": "2025-06-15",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "NOB409",
+    "model": 1988,
+    "capacity": 8000,
+    "marca": "CHEVROLET",
+    "clase": "SIN LINEA",
+    "tecno": "2023-07-26",
+    "soat": "2023-09-02",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "MYZ582",
+    "model": 2023,
+    "capacity": 10000,
+    "marca": "CHEVROLET",
+    "clase": "SIN LINEA",
+    "tecno": "2025-12-28",
+    "soat": "2025-12-28",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "ETT894",
+    "model": 2023,
+    "capacity": 8000,
+    "marca": "VOLKSWAGEN",
+    "clase": "SIN LINEA",
+    "tecno": "2024-03-21",
+    "soat": "2024-03-21",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "TDS235",
+    "model": 1999,
+    "capacity": 4500,
+    "marca": "CHEVROLET",
+    "clase": "SIN LINEA",
+    "tecno": "2024-11-15",
+    "soat": "2024-11-14",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "GTU338",
+    "model": 2022,
+    "capacity": 5850,
+    "marca": "FIAT",
+    "clase": "SIN LINEA",
+    "tecno": "2025-02-15",
+    "soat": "2024-10-30",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "LFQ531",
+    "model": 2023,
+    "capacity": 4500,
+    "marca": "JMC",
+    "clase": "JX1044TC4",
+    "tecno": "2025-04-22",
+    "soat": "2025-04-29",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "LPZ871",
+    "model": 2023,
+    "capacity": 5700,
+    "marca": "FOTON",
+    "clase": "SIN LINEA",
+    "tecno": "2025-10-09",
+    "soat": "2025-10-11",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "GDW821",
+    "model": 2020,
+    "capacity": 5300,
+    "marca": "JAC",
+    "clase": "HFC1120KN",
+    "tecno": "2024-07-30",
+    "soat": "2024-08-07",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "WDO037",
+    "model": 2023,
+    "capacity": 5800,
+    "marca": "FOTON",
+    "clase": "SIN LINEA",
+    "tecno": "2024-10-27",
+    "soat": "2024-10-23",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "GEU692",
+    "model": 2020,
+    "capacity": 5000,
+    "marca": "FOTON",
+    "clase": "BJ1129VHPEG-F1",
+    "tecno": "2025-06-11",
+    "soat": "2025-08-30",
+    "tipo": "TURBO EXTRADIMENSIONADA"
+  },
+  {
+    "plate": "SZQ898",
+    "model": 2013,
+    "capacity": 7000,
+    "marca": "CHEVROLET",
+    "clase": "SIN LINEA",
+    "tecno": "2025-12-05",
+    "soat": "2025-05-25",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "EQP462",
+    "model": 2014,
+    "capacity": 4500,
+    "marca": "DONG FENG",
+    "clase": "DUOLIKA DFA1063DJ10",
+    "tecno": "2025-10-15",
+    "soat": "2025-10-15",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "KSQ483",
+    "model": 2022,
+    "capacity": 2300,
+    "marca": "FOTON",
+    "clase": "BJ1044V9JD4-F1",
+    "tecno": "2025-12-23",
+    "soat": "2025-12-20",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "KSO693",
+    "model": 2022,
+    "capacity": 5550,
+    "marca": "FOTON",
+    "clase": "SIN LINEA",
+    "tecno": "2024-10-02",
+    "soat": "2024-09-28",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "SSW803",
+    "model": 2012,
+    "capacity": 4600,
+    "marca": "MITSUBISHI FUSO",
+    "clase": "CANTER",
+    "tecno": "2024-11-11",
+    "soat": "2024-11-04",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "SPQ907",
+    "model": 1999,
+    "capacity": 4500,
+    "marca": "JAC",
+    "clase": "HFC1061K",
+    "tecno": "2024-10-18",
+    "soat": "2025-03-21",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "TDL955",
+    "model": 2012,
+    "capacity": 8600,
+    "marca": "CHEVROLET",
+    "clase": "SIN LINEA",
+    "tecno": "2023-10-15",
+    "soat": "2023-09-15",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "GZZ538",
+    "model": 2020,
+    "capacity": 5000,
+    "marca": "JAC",
+    "clase": "SIN LINEA",
+    "tecno": "2026-01-27",
+    "soat": "2026-02-07",
+    "tipo": "TURBO EXTRADIMENSIONADA"
+  },
+  {
+    "plate": "JOV625",
+    "model": 2021,
+    "capacity": 2650,
+    "marca": "FOTON",
+    "clase": "SIN LINEA",
+    "tecno": "2025-02-21",
+    "soat": "2024-11-01",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "SYR776",
+    "model": 2003,
+    "capacity": 8000,
+    "marca": "CHEVROLET",
+    "clase": "KODIAK 241",
+    "tecno": "2025-03-27",
+    "soat": "2025-03-27",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "GUU190",
+    "model": 2020,
+    "capacity": 6000,
+    "marca": "FOTON",
+    "clase": "SIN LINEA",
+    "tecno": "2025-01-13",
+    "soat": "2025-01-15",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "SNS792",
+    "model": 2013,
+    "capacity": 6100,
+    "marca": "CHEVROLET",
+    "clase": "FRR",
+    "tecno": "2026-01-03",
+    "soat": "2025-09-19",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "SOP837",
+    "model": 2009,
+    "capacity": 4500,
+    "marca": "CHEVROLET",
+    "clase": "SIN LINEA",
+    "tecno": "2024-06-18",
+    "soat": "2024-01-10",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "MYZ540",
+    "model": 2023,
+    "capacity": 6000,
+    "marca": "JAC",
+    "clase": "SIN LINEA",
+    "tecno": "2025-07-23",
+    "soat": "2025-07-23",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "LLO544",
+    "model": 2023,
+    "capacity": 9000,
+    "marca": "CHEVROLET",
+    "clase": "SIN LINEA",
+    "tecno": "2024-06-14",
+    "soat": "2024-06-14",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "SZU735",
+    "model": 2012,
+    "capacity": 4500,
+    "marca": "JAC",
+    "clase": "HFC1063K",
+    "tecno": "2026-01-13",
+    "soat": "2025-07-17",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "SOF420",
+    "model": 2005,
+    "capacity": 9500,
+    "marca": "FREIGHTLINER",
+    "clase": "SIN LINEA",
+    "tecno": "2024-06-27",
+    "soat": "2024-06-29",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "SOO052",
+    "model": 2007,
+    "capacity": 8000,
+    "marca": "VOLKSWAGEN",
+    "clase": "15.180/4800",
+    "tecno": "2025-12-10",
+    "soat": "2025-11-02",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "SZN502",
+    "model": 2011,
+    "capacity": 8000,
+    "marca": "CHEVROLET",
+    "clase": "FTR",
+    "tecno": "2023-02-07",
+    "soat": "2023-10-06",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "CAR123",
+    "model": 2002,
+    "capacity": 8000,
+    "marca": "DODGE",
+    "clase": "ARIES",
+    "tecno": "2024-06-20",
+    "soat": "2024-06-28",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "JOV913",
+    "model": 1999,
+    "capacity": 5550,
+    "marca": "FOTON",
+    "clase": "SIN LINEA",
+    "tecno": "2025-08-31",
+    "soat": "2025-09-07",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "GTU070",
+    "model": 2021,
+    "capacity": 3200,
+    "marca": "FOTON",
+    "clase": "SIN LINEA",
+    "tecno": "2024-11-22",
+    "soat": "2024-11-20",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "TZW758",
+    "model": 2015,
+    "capacity": 8750,
+    "marca": "CHEVROLET",
+    "clase": "NPR",
+    "tecno": "2025-12-26",
+    "soat": "2025-08-01",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "TOE597",
+    "model": 2017,
+    "capacity": 2500,
+    "marca": "CHEVROLET",
+    "clase": "SIN LINEA",
+    "tecno": "2025-03-14",
+    "soat": "2025-03-12",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "TFV244",
+    "model": 1997,
+    "capacity": 3000,
+    "marca": "CHEVROLET",
+    "clase": "SIN LINEA",
+    "tecno": "2025-07-28",
+    "soat": "2025-12-05",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "LGV107",
+    "model": 2023,
+    "capacity": 5000,
+    "marca": "FOTON",
+    "clase": "SIN LINEA",
+    "tecno": "2024-01-18",
+    "soat": "2024-01-05",
+    "tipo": "TURBO EXTRADIMENSIONADA"
+  },
+  {
+    "plate": "JUY434",
+    "model": 2022,
+    "capacity": 2250,
+    "marca": "JAC",
+    "clase": "SIN LINEA",
+    "tecno": "2024-06-26",
+    "soat": "2024-07-15",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "JUY899",
+    "model": 2022,
+    "capacity": 4500,
+    "marca": "CHEVROLET",
+    "clase": "SIN LINEA",
+    "tecno": "2023-08-18",
+    "soat": "2023-08-23",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "UFV296",
+    "model": 2006,
+    "capacity": 4000,
+    "marca": "CHEVROLET",
+    "clase": "NPR",
+    "tecno": "2024-10-06",
+    "soat": "2024-01-13",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "TAW413",
+    "model": 2012,
+    "capacity": 4500,
+    "marca": "CHEVROLET",
+    "clase": "NPR",
+    "tecno": "2025-06-08",
+    "soat": "2025-04-09",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "TSD025",
+    "model": 2005,
+    "capacity": 4500,
+    "marca": "CHEVROLET",
+    "clase": "NPR",
+    "tecno": "2025-02-16",
+    "soat": "2025-03-24",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "SRL524",
+    "model": 2006,
+    "capacity": 4500,
+    "marca": "DAIHATSU",
+    "clase": "SIN LINEA",
+    "tecno": "2024-07-12",
+    "soat": "2024-12-07",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "VSC705",
+    "model": 1974,
+    "capacity": 8000,
+    "marca": "INTERNATIONAL",
+    "clase": 1700,
+    "tecno": "2026-01-27",
+    "soat": "2026-02-20",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "SMD229",
+    "model": 2009,
+    "capacity": 3000,
+    "marca": "HYUNDAI",
+    "clase": "HD 65",
+    "tecno": "2025-07-15",
+    "soat": "2025-07-28",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "XVP933",
+    "model": 2007,
+    "capacity": 4300,
+    "marca": "CHEVROLET",
+    "clase": "SIN LINEA",
+    "tecno": "2026-01-03",
+    "soat": "2025-06-30",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "WNZ606",
+    "model": 2017,
+    "capacity": 4500,
+    "marca": "HINO",
+    "clase": "SIN LINEA",
+    "tecno": "2024-06-08",
+    "soat": "2024-05-05",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "OTA300",
+    "model": 1990,
+    "capacity": 8000,
+    "marca": "CHEVROLET",
+    "clase": "C 70",
+    "tecno": "2023-02-19",
+    "soat": "2023-08-15",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "SEY203",
+    "model": 2015,
+    "capacity": 8000,
+    "marca": "HINO",
+    "clase": "FG8JMSB",
+    "tecno": "2025-04-30",
+    "soat": "2025-04-25",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "GMB959",
+    "model": 1976,
+    "capacity": 7000,
+    "marca": "FORD",
+    "clase": "SIN LINEA",
+    "tecno": "2025-11-21",
+    "soat": "2025-09-02",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "GUQ519",
+    "model": 2020,
+    "capacity": 4550,
+    "marca": "FOTON",
+    "clase": "BJ1061VCJEA-F1",
+    "tecno": "2024-10-19",
+    "soat": "2024-10-27",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "LUL229",
+    "model": 2023,
+    "capacity": 10800,
+    "marca": "DONG FENG",
+    "clase": "SIN LINEA",
+    "tecno": "2025-12-27",
+    "soat": "2026-01-06",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "LJU911",
+    "model": 2023,
+    "capacity": 2500,
+    "marca": "JAC",
+    "clase": "SIN LINEA",
+    "tecno": "2025-07-27",
+    "soat": "2025-07-26",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "KRM158",
+    "model": 2022,
+    "capacity": 11000,
+    "marca": "HINO",
+    "clase": "GH8JM8A",
+    "tecno": "2025-01-04",
+    "soat": "2025-01-04",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "VOF896",
+    "model": 1999,
+    "capacity": 4500,
+    "marca": "MITSUBISHI",
+    "clase": "CANTER",
+    "tecno": "2024-10-09",
+    "soat": "2024-10-23",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "WOW722",
+    "model": 2017,
+    "capacity": 5000,
+    "marca": "CHEVROLET",
+    "clase": "SIN LINEA",
+    "tecno": "2024-07-15",
+    "soat": "2024-07-15",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "SXZ711",
+    "model": 1999,
+    "capacity": 4990,
+    "marca": "FOTON",
+    "clase": "SIN LINEA",
+    "tecno": "2024-08-12",
+    "soat": "2024-06-10",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "GIM574",
+    "model": 2023,
+    "capacity": 8000,
+    "marca": "CHEVROLET",
+    "clase": "FVR",
+    "tecno": "2025-02-14",
+    "soat": "2025-01-22",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "TSY741",
+    "model": 2013,
+    "capacity": 4700,
+    "marca": "CHEVROLET",
+    "clase": "NQR",
+    "tecno": "2025-10-22",
+    "soat": "2025-10-25",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "SRL280",
+    "model": 2006,
+    "capacity": 8000,
+    "marca": "FORD",
+    "clase": "CARGO 1721",
+    "tecno": "2025-06-03",
+    "soat": "2025-06-02",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "TSX343",
+    "model": 2013,
+    "capacity": 5150,
+    "marca": "CHEVROLET",
+    "clase": "SIN LINEA",
+    "tecno": "2025-11-29",
+    "soat": "2025-10-18",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "TFK410",
+    "model": 1989,
+    "capacity": 8000,
+    "marca": "CHEVROLET",
+    "clase": "C 70",
+    "tecno": "2026-02-26",
+    "soat": "2025-10-10",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "LCM564",
+    "model": 2022,
+    "capacity": 2300,
+    "marca": "FOTON",
+    "clase": "SIN LINEA",
+    "tecno": "2024-02-24",
+    "soat": "2024-02-23",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "VEF010",
+    "model": 2007,
+    "capacity": 7500,
+    "marca": "CHEVROLET",
+    "clase": "SIN LINEA",
+    "tecno": "2024-11-22",
+    "soat": "2024-07-30",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "UPR827",
+    "model": 2008,
+    "capacity": 4500,
+    "marca": "CHEVROLET",
+    "clase": "NPR",
+    "tecno": "2025-05-29",
+    "soat": "2025-08-10",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "WFI752",
+    "model": 2019,
+    "capacity": 4400,
+    "marca": "FOTON",
+    "clase": "BJ1129VHPEG-F1",
+    "tecno": "2025-06-04",
+    "soat": "2025-05-31",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "TRJ089",
+    "model": 2012,
+    "capacity": 5000,
+    "marca": "CHEVROLET",
+    "clase": "SIN LINEA",
+    "tecno": "2023-02-03",
+    "soat": "2022-11-08",
+    "tipo": "TURBO EXTRADIMENSIONADA"
+  },
+  {
+    "plate": "SYC934",
+    "model": 1998,
+    "capacity": 8000,
+    "marca": "CHEVROLET",
+    "clase": "KODIAK 240",
+    "tecno": "2025-01-16",
+    "soat": "2024-07-22",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "WOK871",
+    "model": 2017,
+    "capacity": 5000,
+    "marca": "FOTON",
+    "clase": "BJ1078VEJEA-F1",
+    "tecno": "2024-05-31",
+    "soat": "2024-05-31",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "ESY337",
+    "model": 2018,
+    "capacity": 4400,
+    "marca": "CHEVROLET",
+    "clase": "FRR",
+    "tecno": "2025-03-02",
+    "soat": "2025-02-20",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "TMV102",
+    "model": 2007,
+    "capacity": 3500,
+    "marca": "DAIHATSU",
+    "clase": "SIN LINEA",
+    "tecno": "2026-02-02",
+    "soat": "2025-12-21",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "KNL399",
+    "model": 2023,
+    "capacity": 2270,
+    "marca": "JAC",
+    "clase": "SIN LINEA",
+    "tecno": "2024-08-30",
+    "soat": "2024-09-13",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "WHW703",
+    "model": 2017,
+    "capacity": 5000,
+    "marca": "DONG FENG",
+    "clase": "SIN LINEA",
+    "tecno": "2023-09-09",
+    "soat": "2023-09-05",
+    "tipo": "TURBO EXTRADIMENSIONADA"
+  },
+  {
+    "plate": "SWO916",
+    "model": 2008,
+    "capacity": 4500,
+    "marca": "MITSUBISHI",
+    "clase": "CANTER FE85",
+    "tecno": "2024-08-31",
+    "soat": "2025-07-02",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "WDK434",
+    "model": 2022,
+    "capacity": 8000,
+    "marca": "HINO",
+    "clase": "SIN LINEA",
+    "tecno": "2025-03-25",
+    "soat": "2025-04-09",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "YAQ823",
+    "model": 2006,
+    "capacity": 4500,
+    "marca": "FORD",
+    "clase": "CARGO 815",
+    "tecno": "2026-01-10",
+    "soat": "2026-01-03",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "TLM011",
+    "model": 2013,
+    "capacity": 8000,
+    "marca": "CHEVROLET",
+    "clase": "FRR",
+    "tecno": "2025-06-22",
+    "soat": "2025-04-24",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "LMM870",
+    "model": 2023,
+    "capacity": 4500,
+    "marca": "JAC",
+    "clase": "SIN LINEA",
+    "tecno": "2025-09-07",
+    "soat": "2025-09-07",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "UPB631",
+    "model": 2019,
+    "capacity": 4500,
+    "marca": "CHEVROLET",
+    "clase": "SIN LINEA",
+    "tecno": "2024-07-07",
+    "soat": "2024-07-07",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "WFQ573",
+    "model": 2017,
+    "capacity": 4500,
+    "marca": "CHEVROLET",
+    "clase": "NKR",
+    "tecno": "2024-01-23",
+    "soat": "2024-01-24",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "TFS139",
+    "model": 2013,
+    "capacity": 5000,
+    "marca": "HYUNDAI",
+    "clase": "SIN LINEA",
+    "tecno": "2025-07-18",
+    "soat": "2025-04-24",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "KUK747",
+    "model": 2006,
+    "capacity": 10000,
+    "marca": "VOLKSWAGEN",
+    "clase": "17-220",
+    "tecno": "2023-06-21",
+    "soat": "2023-06-05",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "SBN646",
+    "model": 2012,
+    "capacity": 8000,
+    "marca": "HINO",
+    "clase": "FG8JMSB",
+    "tecno": "2025-06-11",
+    "soat": "2025-04-17",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "WTG202",
+    "model": 1993,
+    "capacity": 8000,
+    "marca": "DODGE",
+    "clase": "SIN LINEA",
+    "tecno": "2023-10-25",
+    "soat": "2023-09-28",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "VXJ665",
+    "model": 2010,
+    "capacity": 8000,
+    "marca": "CHEVROLET",
+    "clase": "C 60",
+    "tecno": "2024-09-08",
+    "soat": "2024-05-31",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "LRN064",
+    "model": 2023,
+    "capacity": 8000,
+    "marca": "HINO",
+    "clase": "SIN LINEA",
+    "tecno": "2024-10-05",
+    "soat": "2023-10-05",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "WOT843",
+    "model": 2017,
+    "capacity": 4500,
+    "marca": "FOTON",
+    "clase": "SIN LINEA",
+    "tecno": "2024-07-01",
+    "soat": "2024-05-14",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "WMY564",
+    "model": 2015,
+    "capacity": 4500,
+    "marca": "HYUNDAI",
+    "clase": "SIN LINEA",
+    "tecno": "2024-09-18",
+    "soat": "2024-08-28",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "TFR167",
+    "model": 2012,
+    "capacity": 3500,
+    "marca": "CHEVROLET",
+    "clase": "NPR",
+    "tecno": "2025-02-05",
+    "soat": "2025-02-04",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "WMR482",
+    "model": 2015,
+    "capacity": 8000,
+    "marca": "HINO",
+    "clase": "FG8JMSB",
+    "tecno": "2025-06-06",
+    "soat": "2026-05-30",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "THY778",
+    "model": 2013,
+    "capacity": 4770,
+    "marca": "JAC",
+    "clase": "HFC1063K",
+    "tecno": "2024-11-14",
+    "soat": "2025-07-02",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "KUM854",
+    "model": 2008,
+    "capacity": 5000,
+    "marca": "CHEVROLET",
+    "clase": "NPR",
+    "tecno": "2025-06-28",
+    "soat": "2025-12-13",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "SBN503",
+    "model": 2012,
+    "capacity": 8000,
+    "marca": "CHEVROLET",
+    "clase": "FTR",
+    "tecno": "2025-07-19",
+    "soat": "2025-04-21",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "JYX201",
+    "model": 2022,
+    "capacity": 4500,
+    "marca": "JAC",
+    "clase": "HFC1120KN",
+    "tecno": "2024-11-16",
+    "soat": "2024-11-08",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "JRR921",
+    "model": 2021,
+    "capacity": 4500,
+    "marca": "HINO",
+    "clase": "FC9JJTA",
+    "tecno": "2024-12-13",
+    "soat": "2024-12-10",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "ZCW099",
+    "model": 1995,
+    "capacity": 11000,
+    "marca": "CHEVROLET",
+    "clase": "SIN LINEA",
+    "tecno": "2025-06-12",
+    "soat": "2026-02-11",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "SUE315",
+    "model": 2007,
+    "capacity": 8000,
+    "marca": "CHEVROLET",
+    "clase": "SIN LINEA",
+    "tecno": "2024-10-04",
+    "soat": "2024-10-06",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "WHW846",
+    "model": 2018,
+    "capacity": 5000,
+    "marca": "JAC",
+    "clase": "SIN LINEA",
+    "tecno": "2024-01-10",
+    "soat": "2024-01-11",
+    "tipo": "TURBO EXTRADIMENSIONADA"
+  },
+  {
+    "plate": "JTY059",
+    "model": 2021,
+    "capacity": 5000,
+    "marca": "FOTON",
+    "clase": "SIN LINEA",
+    "tecno": "2025-01-15",
+    "soat": "2025-01-17",
+    "tipo": "TURBO EXTRADIMENSIONADA"
+  },
+  {
+    "plate": "LUX101",
+    "model": 2023,
+    "capacity": 4400,
+    "marca": "DONG FENG",
+    "clase": "SIN LINEA",
+    "tecno": "2024-09-18",
+    "soat": "2024-09-15",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "WLL592",
+    "model": 2015,
+    "capacity": 4990,
+    "marca": "FOTON",
+    "clase": "BJ5089VEBEA-FA",
+    "tecno": "2025-03-07",
+    "soat": "2025-05-04",
+    "tipo": "TURBO"
+  },
+  {
+    "plate": "WFC460",
+    "model": 2015,
+    "capacity": 11100,
+    "marca": "INTERNATIONAL",
+    "clase": "SIN LINEA",
+    "tecno": "2025-07-04",
+    "soat": "2025-03-31",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "WPU520",
+    "model": 2017,
+    "capacity": 8000,
+    "marca": "HINO",
+    "clase": "SIN LINEA",
+    "tecno": "2025-01-16",
+    "soat": "2025-01-15",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "STE458",
+    "model": 2022,
+    "capacity": 9700,
+    "marca": "FOTON",
+    "clase": "SIN LINEA",
+    "tecno": "2025-04-08",
+    "soat": "2025-04-07",
+    "tipo": "SENCILLO"
+  },
+  {
+    "plate": "EYX344",
+    "model": 2019,
+    "capacity": 5000,
+    "marca": "JAC",
+    "clase": "HFC1120KN",
+    "tecno": "2024-12-31",
+    "soat": "2025-01-07",
+    "tipo": "TURBO"
+  }
+]

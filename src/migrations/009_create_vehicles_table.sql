@@ -1,0 +1,21 @@
+CREATE TABLE vehicles (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    plate VARCHAR(20) NOT NULL UNIQUE,
+    model VARCHAR(5) NOT NULL,
+    capacity FLOAT NOT NULL,
+    id_brand INT NOT NULL,
+    id_class INT NOT NULL,
+    id_type INT NOT NULL,
+    soat_date DATE,
+    tecno_date DATE,
+    id_status INT NOT NULL,
+    id_user_create INT NOT NULL,
+    id_user_update INT DEFAULT NULL,
+    id_user_delete INT DEFAULT NULL,
+    deleted_at TIMESTAMP NULL DEFAULT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    CONSTRAINT fk_vehicles_user_create FOREIGN KEY (id_user_create) REFERENCES users(id),
+    CONSTRAINT fk_vehicles_user_update FOREIGN KEY (id_user_update) REFERENCES users(id),
+    CONSTRAINT fk_vehicles_user_delete FOREIGN KEY (id_user_delete) REFERENCES users(id)
+);

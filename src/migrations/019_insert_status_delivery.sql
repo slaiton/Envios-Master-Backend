@@ -1,0 +1,1 @@
+INSERT INTO status_delivery (color, name) VALUES ("#FFCC00", 'En espera'), ("#FFA500", 'En transito'), ("#008000", 'Entregado'), ("#FF6347", 'Novedad');

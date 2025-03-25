@@ -1,0 +1,21 @@
+CREATE TABLE drivers (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    last_name VARCHAR(100) NOT NULL,
+    document VARCHAR(50) NOT NULL UNIQUE,
+    number_contact VARCHAR(15) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    photo VARCHAR(100) DEFAULT NULL,
+    licence_date DATE DEFAULT NULL,
+    social_security_date DATE DEFAULT NULL,
+    id_status INT NOT NULL,
+    id_user_create INT NOT NULL,
+    id_user_update INT DEFAULT NULL,
+    id_user_delete INT DEFAULT NULL,
+    deleted_at TIMESTAMP NULL DEFAULT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    CONSTRAINT fk_drivers_user_create FOREIGN KEY (id_user_create) REFERENCES users(id),
+    CONSTRAINT fk_drivers_user_update FOREIGN KEY (id_user_update) REFERENCES users(id),
+    CONSTRAINT fk_drivers_user_delete FOREIGN KEY (id_user_delete) REFERENCES users(id)
+);

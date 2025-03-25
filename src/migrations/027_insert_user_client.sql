@@ -1,0 +1,2 @@
+INSERT INTO users (name, email, password, id_client, id_rol,created_at, updated_at, id_user_create, id_user_update)
+VALUES ('Cliente', 'client@gmail.com', '$2b$10$bisrTeU5EHu7ncQ.N085P.h.AlWfEQEPVQAzz20Z/PmC05pm1ykuW', 1 , 2, NOW(), NOW(), NULL, NULL);

@@ -1,0 +1,1 @@
+INSERT INTO status (name) VALUES ('Activo'), ('Inactivo');

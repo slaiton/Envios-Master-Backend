@@ -1,0 +1,5 @@
+CREATE TABLE status_delivery (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    color VARCHAR(20),
+    name VARCHAR(50) NOT NULL UNIQUE
+);
