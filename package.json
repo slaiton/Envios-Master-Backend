@@ -9,7 +9,8 @@
     "build": "tsc",
     "test": "jest --detectOpenHandles --forceExit",
     "test:watch": "jest --watch",
-    "migrate:sql": "node -r ts-node/register src/utils/runMigrations.ts"
+    "migrate:sql": "node -r ts-node/register src/utils/runMigrations.ts",
+    "load-data": "ts-node src/scripts/loadData.ts"
   },
   "keywords": [],
   "author": "",

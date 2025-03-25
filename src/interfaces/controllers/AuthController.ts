@@ -4,8 +4,8 @@ import { HttpError } from "../../errors/HttpError";
 
 export const register = async (req: Request, res: Response): Promise<void> => {
   try {
-    const { name, email, password } = req.body;
-    const user = await registerUser(name, email, password);
+    const { name, email, password, id_rol, id_client } = req.body;
+    const user = await registerUser(name, email, password, id_rol, id_client);
     res.status(201).json({ message: "Usuario creado exitosamente", user });
   } catch (error) {
     if (error instanceof HttpError) {
