@@ -8,6 +8,8 @@ import loadDataRoute from "./routes/loadDataRoute";
 import cityRoutes from "./routes/cityRoutes";
 import vehicleRoutes from "./routes/vehicleRoutes";
 import driverRoutes from "./routes/driverRoutes";
+import indicatorRoutes from "./routes/indicatorRoutes";
+import clientRoutes from "./routes/clientRoutes";
 import authMiddleware from "./middlewares/authMiddleware"; 
 
 
@@ -27,5 +29,7 @@ app.use('/api', authMiddleware,loadDataRoute);
 app.use('/api/cities', authMiddleware, cityRoutes);
 app.use('/api/vehicles', authMiddleware, vehicleRoutes);
 app.use('/api/drivers', authMiddleware, driverRoutes);
+app.use('/api/indicators', authMiddleware, indicatorRoutes);
+app.use('/api/clients', authMiddleware, clientRoutes);
 
 export default app;

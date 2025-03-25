@@ -34,6 +34,6 @@ const router = Router();
  *       500:
  *         description: Error en el servidor
  */
-router.get("/indicators", IndicatorController.getIndicators);
+router.get("/", IndicatorController.getIndicators);
 
 export default router;

@@ -16,7 +16,7 @@ export class OrderRepositoryImpl {
         VALUES ('${consecutive}', ${data.id_origin}, ${data.id_destination}, 1, ${senderId}, ${receiverId}, ${data.id_client}, '${formattedDate}', NOW(), NOW(), ${userId});
       `);
 
-      
+
       const orderIdResult = await prisma.$queryRawUnsafe(`
         SELECT id FROM orders WHERE consecutive LIKE '${consecutive}' LIMIT 1;
     `) as { id: number }[];
@@ -40,41 +40,51 @@ export class OrderRepositoryImpl {
     } = filters;
 
     let query = `
-      SELECT a.id, a.consecutive, a.commitment_date, a.delivery_date, a.delivery_time, st.color as status_color,
-             co.name as origin_name, ds.name as destination_name, vh.plate, 
-             CONCAT(dr.name, ' ', dr.last_name) as driver_name, dr.document as document_driver,
-             st.name as status_name, cl.name as client_name, a.created_at, a.updated_at, 
-             uc.name as user_created, sd.name as sender_name, sd.document as sender_document,
-             sd.celphone as sender_celphone, sd.address as sender_address, 
-             rv.name as receiver_name, rv.document as receiver_document, rv.celphone as receiver_celphone, 
-             rv.address as receiver_address, ua.name as user_update, 
-             co.departament as origin_departament, ds.departament as destination_departament,
-             COALESCE(
-                 JSON_ARRAYAGG(
-                     JSON_OBJECT(
-                         'id', do.id,
-                         'peso', do.weight,
-                         'alto', do.height,
-                         'largo', do.length,
-                         'ancho', do.width,
-                         'cantidad', do.quantity,
-                         'producto', do.product
-                     )
-                 ), '[]'
-             ) AS detail
-      FROM orders as a
-      JOIN cities as co ON co.id = a.id_origin                                          
-      JOIN cities as ds ON ds.id = a.id_destination          
-      JOIN status_delivery st ON st.id = a.id_status                               
-      JOIN clients cl ON cl.id = a.id_client
-      JOIN senders sd ON sd.id = a.id_sender                              
-      JOIN receivers rv ON rv.id = a.id_receiver                              
-      LEFT JOIN vehicles vh ON vh.id = a.id_vehicle                                          
-      LEFT JOIN drivers dr ON dr.id = a.id_driver      
-      JOIN users as uc ON uc.id = a.id_user_create                                    
-      LEFT JOIN users as ua ON ua.id = a.id_user_update
-      JOIN detail_order AS do ON do.id_order = a.id
-      WHERE a.deleted_at IS NULL
+         SELECT a.id, a.consecutive, a.commitment_date, a.delivery_date, a.delivery_time , st.color as status_color,
+           co.name as origin_name, ds.name as destination_name, vh.plate, CONCAT(dr.name, ' ', dr.last_name) as driver_name, dr.document as document_driver,
+           st.name as status_name, cl.name as client_name, a.created_at, a.updated_at, uc.name as user_created, sd.name as sender_name, sd.document as sender_document,
+           sd.celphone as sender_celphone, sd.address as sender_address, rv.name as receiver_name, rv.document as receiver_document, rv.celphone as receiver_celphone, 
+           rv.address as receiver_address, ua.name as user_update, co.departament as origin_departament, ds.departament as destination_departament,
+                          COALESCE(
+                    JSON_ARRAYAGG(
+                            JSON_OBJECT(
+                                'id', do.id,
+                                'peso', do.weight,
+                                'alto', do.height,
+                                'largo', do.length,
+                                'ancho', do.width,
+                                'cantidad', do.quantity,
+                                'producto', do.product
+                            )
+                    ), '[]'
+                ) AS detail,
+           COALESCE(
+               (SELECT JSON_ARRAYAGG(
+                        JSON_OBJECT(
+                            'id', tr.id,
+                            'observation', tr.observation,
+                            'status_name', stt.name,
+                            'status_color', stt.color,
+                            'date', tr.created_at
+                        )
+                    )
+                FROM tracking as tr
+                LEFT JOIN status_delivery stt ON stt.id = tr.id_status
+                WHERE tr.id_order = a.id), '[]'
+           ) AS tracking
+    FROM orders as a
+    JOIN cities as co ON co.id = a.id_origin                                          
+    JOIN cities as ds ON ds.id = a.id_destination          
+    JOIN status_delivery st ON st.id = a.id_status                               
+    JOIN clients cl ON cl.id = a.id_client
+    JOIN senders sd ON sd.id = a.id_sender                              
+    JOIN receivers rv ON rv.id = a.id_receiver                              
+    LEFT JOIN vehicles vh ON vh.id = a.id_vehicle                                          
+    LEFT JOIN drivers dr ON dr.id = a.id_driver      
+    JOIN users as uc ON uc.id = a.id_user_create                                    
+    LEFT JOIN users as ua ON ua.id = a.id_user_update
+    JOIN detail_order as do ON do.id_order = a.id
+    WHERE a.deleted_at IS NULL
     `;
 
     const params: any[] = [];
@@ -113,38 +123,62 @@ export class OrderRepositoryImpl {
       query += ` AND a.id_destination = ?`;
       params.push(id_destination);
     }
-    
+
     if (consecutive && consecutive.length > 0) {
       query += ` AND a.consecutive = ?`;
 
       params.push(consecutive);
     }
 
-    query += ` GROUP BY a.id ORDER BY a.created_at;`;
+    query += ` GROUP BY a.id, a.consecutive, a.commitment_date, a.delivery_date, a.delivery_time, 
+                        st.color, co.name, ds.name, vh.plate, dr.name, dr.last_name, dr.document, 
+                        st.name, cl.name, a.created_at, a.updated_at, uc.name, sd.name, sd.document, 
+                        sd.celphone, sd.address, rv.name, rv.document, rv.celphone, rv.address, 
+                        ua.name, co.departament, ds.departament
+                ORDER BY a.created_at DESC;
+               `;
 
     return await prisma.$queryRawUnsafe(query, ...params) as Order[];
   }
 
   async getOrderById(id: number): Promise<Order | null> {
     const result = await prisma.$queryRaw<Order[]>`
-       SELECT a.id, a.consecutive, a.commitment_date, a.delivery_date, a.delivery_time , st.color as status_color,
-           co.name as origin_name, ds.name as destination_name, vh.plate, CONCAT(dr.name, ' ', dr.last_name) as driver_name, dr.document as document_driver,
-           st.name as status_name, cl.name as client_name, a.created_at, a.updated_at, uc.name as user_created, sd.name as sender_name, sd.document as sender_document,
-           sd.celphone as sender_celphone, sd.address as sender_address, rv.name as receiver_name, rv.document as receiver_document, rv.celphone as receiver_celphone, 
-           rv.address as receiver_address, ua.name as user_update, co.departament as origin_departament, ds.departament as destination_departament,
-                          COALESCE(
-                    JSON_ARRAYAGG(
-                            JSON_OBJECT(
-                                'id', do.id,
-                                'peso', do.weight,
-                                'alto', do.height,
-                                'largo', do.length,
-                                'ancho', do.width,
-                                'cantidad', do.quantity,
-                                'producto', do.product
-                            )
-                    ), '[]'
-                ) AS detail
+       SELECT a.id, a.consecutive, a.commitment_date, a.delivery_date, a.delivery_time, st.color as status_color,
+           co.name as origin_name, ds.name as destination_name, vh.plate, 
+           CONCAT(dr.name, ' ', dr.last_name) as driver_name, dr.document as document_driver,
+           st.name as status_name, cl.name as client_name, a.created_at, a.updated_at, 
+           uc.name as user_created, sd.name as sender_name, sd.document as sender_document,
+           sd.celphone as sender_celphone, sd.address as sender_address, 
+           rv.name as receiver_name, rv.document as receiver_document, rv.celphone as receiver_celphone, 
+           rv.address as receiver_address, ua.name as user_update, 
+           co.departament as origin_departament, ds.departament as destination_departament,
+           COALESCE(
+               JSON_ARRAYAGG(
+                   JSON_OBJECT(
+                       'id', do.id,
+                       'peso', do.weight,
+                       'alto', do.height,
+                       'largo', do.length,
+                       'ancho', do.width,
+                       'cantidad', do.quantity,
+                       'producto', do.product
+                   )
+               ), '[]'
+           ) AS detail,
+           COALESCE(
+               (SELECT JSON_ARRAYAGG(
+                        JSON_OBJECT(
+                            'id', tr.id,
+                            'observation', tr.observation,
+                            'status_name', stt.name,
+                            'status_color', stt.color,
+                            'date', tr.created_at
+                        )
+                    )
+                FROM tracking as tr
+                LEFT JOIN status_delivery stt ON stt.id = tr.id_status
+                WHERE tr.id_order = a.id), '[]'
+           ) AS tracking
     FROM orders as a
     JOIN cities as co ON co.id = a.id_origin                                          
     JOIN cities as ds ON ds.id = a.id_destination          
@@ -154,11 +188,15 @@ export class OrderRepositoryImpl {
     JOIN receivers rv ON rv.id = a.id_receiver                              
     LEFT JOIN vehicles vh ON vh.id = a.id_vehicle                                          
     LEFT JOIN drivers dr ON dr.id = a.id_driver      
-    JOIN users as uc ON uc.id = a.id_user_create                                    
+    JOIN users as uc ON uc.id = a.id_user_create                                  
     LEFT JOIN users as ua ON ua.id = a.id_user_update
-    JOIN detail_order AS do ON do.id_order = a.id                                   
+    JOIN detail_order as do ON do.id_order = a.id
     WHERE a.id = ${id} AND a.deleted_at IS NULL
-    GROUP BY a.id;`;
+    GROUP BY a.id, a.consecutive, a.commitment_date, a.delivery_date, a.delivery_time, 
+             st.color, co.name, ds.name, vh.plate, dr.name, dr.last_name, dr.document, 
+             st.name, cl.name, a.created_at, a.updated_at, uc.name, sd.name, sd.document, 
+             sd.celphone, sd.address, rv.name, rv.document, rv.celphone, rv.address, 
+             ua.name, co.departament, ds.departament;`;
     return result.length > 0 ? result[0] : null;
   }
 
@@ -186,10 +224,10 @@ export class OrderRepositoryImpl {
 
   async getIdByConsecutive(consecutive: string): Promise<number> {
     const orderIdResult = await prisma.$queryRawUnsafe(
-     `SELECT id FROM orders WHERE consecutive = ? LIMIT 1`,
-    consecutive
+      `SELECT id FROM orders WHERE consecutive = ? LIMIT 1`,
+      consecutive
     ) as { id: number }[];
-  
+
     return orderIdResult.length ? orderIdResult[0].id : 0; // Manejo de caso sin resultados
   }
 

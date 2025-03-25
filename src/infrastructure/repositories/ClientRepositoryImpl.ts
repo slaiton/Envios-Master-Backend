@@ -6,6 +6,21 @@ import prisma from "../../config/database";
 
 
 export class ClientRepositoryImpl {
+
+  async getAllClients (): Promise<void> {
+    try {
+      
+      return await prisma.$queryRawUnsafe(`
+        SELECT * FROM clients
+        WHERE deleted_at IS NULL;
+      `);
+
+    } catch (error) {
+      console.error("Error al obtener vehículos disponibles:", error);
+      throw error;
+    } 
+  }
+
   async findOrCreateClient(name: string, document: string): Promise<number> {
     try {
       const existingClient: any = await prisma.$queryRawUnsafe(

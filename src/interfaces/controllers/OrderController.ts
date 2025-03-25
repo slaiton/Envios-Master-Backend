@@ -42,12 +42,12 @@ export class OrderController {
         res.status(201).json(newOrder);
       }
     
-    } catch (error) {
-      console.error("Error creating order:", error);
-  
+    } catch (error:any) {
       let errorResponse: any = { message: "Error creating order" };
-  
-      res.status(500).json(errorResponse);
+      if (error && error.errors) { 
+        errorResponse.errors = error.errors;
+      }
+      res.status(400).json(errorResponse);
     }
   }
 

@@ -1,54 +1,71 @@
 import { OrderController } from "../src/interfaces/controllers/OrderController";
 import { OrderUseCase } from "../src/core/usecases/OrderUseCase";
+import request from "supertest";
+import app from "../src/app";
 
 const mockOrderUseCase = {
-  createOrder: jest.fn(),
+  createOrder: jest.fn().mockResolvedValue({ id: 123 }), 
 };
 
 const orderController = new OrderController(mockOrderUseCase as any);
 
+
+
 describe("OrderController", () => {
+
+  let token: string;
+
+beforeAll(async () => {
+  const authResponse = await request(app)
+    .post("/api/auth/login")
+    .send({
+      email: "admin@gmail.com",
+      password: "123456"
+    });
+
+  token = authResponse.body.token;
+});
+
   it("debería crear una orden y devolver el ID", async () => {
     const req = {
+      headers: { Authorization: `Bearer ${token}` },
       body: {
-        consecutive: "ORD20240322002",
-        id_origin: 1,
-        id_destination: 2,
+        id_origin: 7988,
+        id_destination: 7988,
         id_client: 1,
-        id_status: 1,
-        commitment_date: "2025-03-22",
-        delivery_date: "2025-03-25",
-        delivery_time: "14:00",
+        commitment_date: "2025-03-25T07:31:37.766Z",
         sender: {
-          name: "Juan Pérez",
-          document: "1234567890",
-          celphone: "+573001234567",
-          address: "Calle 123, Bogotá",
-          id_city: 1
+          name: "Andres",
+          document: "546541",
+          celphone: "546451",
+          address: "Carrera 11b este # 20 - 54 Sur - las mercedes",
+          id_city: 7988,
+          streetType: "Carrera",
+          orientation: "Sur",
+          streetNumber: "11b este",
+          neighborhood: "las mercedes",
+          reference: "20 - 54"
         },
         receiver: {
-          name: "Ana Gómez",
-          document: "0987654321",
-          celphone: "+573002345678",
-          address: "Avenida 456, Medellín",
-          id_city: 2
+          name: "Jorge",
+          document: "452465",
+          celphone: "456465",
+          address: "Calle 20 bis sur # 9d-66 Este - San blas",
+          id_city: 7988,
+          streetType: "Calle",
+          orientation: "Este",
+          streetNumber: "20 bis sur",
+          neighborhood: "San blas",
+          reference: "9d-66"
         },
-        detalle: [
+        detail: [
           {
-            peso: 50.5,
-            alto: 1.2,
-            largo: 2.0,
-            ancho: 1.0,
-            cantidad: 10,
-            producto: "Producto A"
-          },
-          {
-            peso: 30.0,
-            alto: 1.0,
-            largo: 1.5,
-            ancho: 0.8,
-            cantidad: 5,
-            producto: "Producto B"
+            product: "Carne",
+            weight: "600",
+            height: "10",
+            length: "20",
+            width: "20",
+            quantity: 1
           }
         ]
       }
@@ -59,12 +76,10 @@ describe("OrderController", () => {
       json: jest.fn()
     };
 
-    mockOrderUseCase.createOrder.mockResolvedValue({ id: 1, message: "Orden creada exitosamente" });
-
     await orderController.createOrder(req as any, res as any);
 
     expect(mockOrderUseCase.createOrder).toHaveBeenCalledWith(req.body);
     expect(res.status).toHaveBeenCalledWith(201);
-    expect(res.json).toHaveBeenCalledWith({ id: 1, message: "Orden creada exitosamente" });
+    expect(res.json).toHaveBeenCalledWith(expect.objectContaining({ id: expect.any(Number), message: "Orden creada exitosamente" }));
   });
 });
